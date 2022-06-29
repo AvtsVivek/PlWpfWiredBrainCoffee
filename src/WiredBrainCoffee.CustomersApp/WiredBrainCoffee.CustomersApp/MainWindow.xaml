@@ -6,10 +6,25 @@
         xmlns:local="clr-namespace:WiredBrainCoffee.CustomersApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="20">
-    <Grid>
-        <Button Content="Add customer"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-                Click="BtnAddCustomer_Click"></Button>
-    </Grid>
+    <Window.Content>
+        <Grid>
+            <Grid.Children>
+                <Button 
+                        x:Name="btnAddCustomer"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Margin="10"  Width="75"
+                        Click="BtnAddCustomer_Click">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel.Children>
+                                <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0" />
+                                <TextBlock Text="Add" />
+                            </StackPanel.Children>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </Grid.Children>
+        </Grid>
+    </Window.Content>
 </Window>
