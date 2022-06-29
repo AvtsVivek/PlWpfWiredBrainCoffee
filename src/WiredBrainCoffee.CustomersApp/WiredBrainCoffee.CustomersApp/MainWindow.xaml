@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WiredBrainCoffee.CustomersApp"
         xmlns:controls="clr-namespace:WiredBrainCoffee.CustomersApp.Controls" xmlns:view="clr-namespace:WiredBrainCoffee.CustomersApp.View"
         mc:Ignorable="d"
-        Title="Customers App" 
+        Title="Dmn Kogito" 
         d:DesignWidth="700" d:DesignHeight="600"  Height="500" Width="800" FontSize="20">
     <Window.Content>
         <Grid>
@@ -27,7 +27,7 @@
         <controls:HeaderControl Grid.Row="1" />
         <view:CustomersView Grid.Row="2" />
         <StatusBar Grid.Row="3">
-            <StatusBarItem FontSize="20" Content=" (c) Wired Brain Coffee"/>
+            <StatusBarItem FontSize="20" Content=" (c) Mewurk "/>
         </StatusBar>
     </Grid>
     </Window.Content>
