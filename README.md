@@ -11,3 +11,4 @@ Learning Wpf using the Pluralsight course Wpf 6. The project is Brain Wired Coff
 
 4. https://github.com/AvtsVivek/DecoratorsForCcc/tree/main
 
+5. https://github.com/AvtsVivek/NoesisWpf
